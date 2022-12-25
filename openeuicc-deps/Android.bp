@@ -1,0 +1,15 @@
+java_import {
+    name: "asn1bean-prebuilt-jar",
+    jars: ["repository/com/beanit/asn1bean/1.13.0/asn1bean-1.13.0.jar"],
+}
+
+java_import {
+    name: "zxing-core-prebuilt-jar",
+    jars: ["repository/com/google/zxing/core/3.4.1/core-3.4.1.jar"],
+}
+
+android_library_import {
+    name: "zxing-android-embedded-prebuilt-aar",
+    aars: ["repository/com/journeyapps/zxing-android-embedded/4.3.0/zxing-android-embedded-4.3.0.aar"],
+    sdk_version: "current",
+}
